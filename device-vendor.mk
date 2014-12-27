@@ -29,4 +29,4 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/flo/overlay
 
-$(call inherit-product, vendor/asus/flo/flo-vendor-blobs.mk)
+$(call inherit-product, vendor/asus/flo/device-partial.mk)
